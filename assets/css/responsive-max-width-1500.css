@@ -1,0 +1,55 @@
+@media  all and (max-width: 1500px) {
+    .step-1{
+        flex-direction: column;
+        top: -45px
+    }
+    .step-1 >div {
+        right: auto;
+        top: 144px
+    }
+    .step-2 {
+        left: 462px;
+        top: 135px;
+        flex-direction: column-reverse
+    }
+    .step-3{
+        flex-direction: column
+    }
+    .step-3 >div{
+        left: auto;
+        top: 144px
+    }
+    .step-4{
+        flex-direction: row
+    }
+    .step-4 >div{
+        right: auto;
+        left: 144px
+    }
+    .pale-title{
+        font-size: 150px
+    }
+    .pale-title-1{
+        left: -90px;
+        top: 270px
+    }
+    .pale-title-2 {
+        top: 655px;
+        left: 510px
+    }
+    .pale-title-3 {
+        top: 1002px;
+        left: -90px
+    }
+    .management-focus .decor-1 {
+        left: var(--size-1)
+    }
+    .management-focus .decor-2 {
+        right: var(--size-1)
+    }
+    .steps-item img{
+        width: 90px;
+        height: 90px
+    }
+    
+}

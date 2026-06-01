@@ -1,0 +1,12 @@
+@media  all and (max-width: 1400px) {
+    .main-menu >nav >ul{
+        gap: var(--size-2)
+    }
+    .testimonials__item .img-container{
+        height: 110px
+    }
+    .testimonials__item .img-container img{
+        object-position: top
+    }
+
+}

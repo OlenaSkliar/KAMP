@@ -1,0 +1,11 @@
+/*
+This file describes styles that are 1201px width and above
+ */
+@media  all and (min-width: 1201px) {
+    #header-mobile, .only-mobile{
+        display: none
+    }
+  
+
+
+}

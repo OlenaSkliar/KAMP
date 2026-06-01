@@ -1,0 +1,128 @@
+/*
+This file describes styles that are 768px width and smaller
+ */
+@media all and (max-width: 768px) {
+
+    h1 {
+        font-size: 3.2rem
+    }
+    h2 {
+        font-size: 1.6rem
+    }
+    h3 {
+        font-size: 2rem
+    }
+    .logo .name >div:first-child{
+        font-size: 35px;
+        margin-bottom: 2px
+    }
+    header.scroll .logo .name >div:first-child{
+        margin-bottom: 0
+    }
+    header.scroll .logo{
+        gap: 10px;
+        align-items: center
+    }
+    .logo img {
+        height: 80px
+    }
+    .logo {
+        gap: 15px
+    }
+    .title >div:first-child{
+        font-size: 2.6rem
+    }
+    .title >*{
+        font-weight: 400
+    }
+    .main-block h1 + p{
+        font-size: 1.8rem
+    }
+    .title, .content-wrap{
+        grid-template-columns: 50px auto
+    }
+    
+    .main-block .btns {
+        margin-top: var(--size-2)
+    }
+    .title h2 {
+        line-height: 1.2
+    }
+   
+    .main-block .container{
+        justify-content: flex-end;
+        padding-bottom: var(--section-distance)
+    }
+    .main-block .btns{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--size-1)
+    }
+    .btn, input[type="button"]{
+        height: 44px
+    }
+
+    .program-includes__item .img-container{
+        height: 180px
+    }
+    .program-includes__item p{
+        margin-top: 4px!important
+    }
+    .training-details__item h3{
+        font-size: 1.6rem
+    }
+    .training-details__item:last-child{
+        padding: var(--size-2)
+    }
+    
+    .testimonials__item >div:first-child {
+        flex: 1
+    }
+   
+    .testimonials__item{
+        padding: var(--size-1);
+        gap: var(--size-1)
+    }
+    
+    .faq .grid-2{
+        gap: 0
+    }
+    .testimonials__item .img-container {
+        height: 220px
+    }
+    .training-details__item:first-child >img {
+        width: 100px
+    }
+    .banner-2 .decor-3{
+        width: 180px
+    }
+    
+
+}
+@media all and (max-width: 600px){
+   
+
+   
+}
+@media all and (max-width: 480px){
+   
+   
+}
+@media all and (max-width: 400px){
+   
+    section p:not(:first-child) {
+        margin-top: var(--size-1)
+    }
+    .banner-2 .btn{
+        padding-left: var(--size-1);
+        padding-right: var(--size-1)
+    }
+
+
+}
+@media all and (max-width: 360px){
+   
+   
+}
+
+    

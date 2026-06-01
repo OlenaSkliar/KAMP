@@ -1,0 +1,124 @@
+/*
+This file describes styles that are 1200px width and smaller
+ */
+@media  all and (max-width: 1200px) {
+    :root{
+        --section-distance: 48px
+    }
+ 
+    /* header mobile styles */
+   
+    
+    .header.only-mobile .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--size-1)
+    }
+    header:not(.scroll) .header.only-mobile .container{
+        align-items: flex-start
+    }
+    .menu-btns.open .menu-btn-open {
+        display: flex
+    }
+
+    .menu-btns.open .menu-btn-close {
+        display: none;
+        position: relative
+    }
+
+    .menu-btns:not(.open) .menu-btn-open {
+        display: none
+    }
+
+    .menu-btns:not(.open) .menu-btn-close {
+        display: flex;
+        position: relative
+    }
+
+    .header-mobile-wrap {
+        position: fixed;
+        z-index: 2;
+        min-width: 220px;
+        padding: var(--size-2);
+        background-color: var(--primary-color);
+        height: fit-content;
+        border-radius: var(--size-1);
+        top: 86px;
+        right: var(--size-1);
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: var(--size-2);
+        box-shadow: 0 0 8px #f0ebde96;
+        transition: 0.3s
+    }
+    .header-mobile-wrap .btn{
+        background-color: var(--white);
+        color: var(--primary-color)
+    }
+    .header-mobile-wrap .main-menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--size-2)
+    }
+
+    .header-mobile-wrap .main-menu ul li a {
+        line-height: 1;
+        display: flex;
+        color: var(--white)
+    }
+  
+    .header-mobile-wrap address{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--size-1);
+        margin-top: var(--size-2)
+    }
+   .header-mobile-wrap address a{
+        color: var(--dark)
+   }
+    .header.menu-translate .header-mobile-wrap{
+        transform: translateX(120%);
+        transition: 0.3s
+    }
+    .header:not(.menu-translate) .overlay{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #20202047;
+        backdrop-filter: blur(5px);
+        width: 100vw;
+        height: 100vh;
+        transition: 0.1s
+    }
+    .header-mobile-wrap .main-menu nav >ul >li{
+        flex-direction: column;
+        gap: 20px
+    }
+  
+
+    /* end of header mobile styles */
+
+    .only-desktop{
+        display: none
+    }
+    .main-block .btn {
+        height: 50px;
+        padding: 0 var(--size-2)
+    }
+   
+    .training-roadmap__item:first-child{
+        display: none
+    }
+    .training-roadmap__items{
+        margin-top: var(--size-2)
+    }
+    
+    /* footer */
+   
+
+    /* end of footer */
+
+}

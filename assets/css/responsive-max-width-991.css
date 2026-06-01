@@ -1,0 +1,145 @@
+/*
+This file describes styles that are 991px width or smaller
+ */
+@media all and (max-width: 991px){
+
+    h1{
+        font-size: 6rem
+    }
+   
+    .text-after-title {
+        font-size: 1.6rem
+    }
+    .grid-2, .grid-3{
+        grid-template-columns: 1fr;
+        gap: var(--size-2)
+    }
+  
+    .training-details__item:last-child{
+        margin-top: var(--size-1)
+    }
+    .counter-items, .benefits__items, .program-includes__items,
+    .training-roadmap__items, footer .content
+    {
+        flex-direction: column
+    }
+      
+    .counter-item:not(:last-child){
+        border-right: none;
+        border-bottom: 1px solid var(--gray);
+        padding-bottom: var(--size-1)
+    }
+    .counter-item:not(:first-child){
+        padding-top: var(--size-1)
+    }
+    .benefits__item{
+        width: 100%
+    }
+  
+    .counter-item__number, .counter-item__number + span{
+        font-size: 4rem
+    }
+    .counter-item__number + span{
+        padding-left: 3px
+    }
+    .counter-item:not(:last-child){
+        border-right: none
+    }
+    .benefits__item .icon img {
+        width: 18px
+    }
+    .benefits__item .icon{
+        width: 60px;
+        height: 60px
+    }
+    .benefits__item{
+        gap: 4px
+    }
+    .benefits__items{
+        gap: var(--size-2);
+        align-items: center
+    }
+    .benefits__item.arrow{
+        height: 8px;
+        width: 8px;
+        transform: rotate(90deg);
+        padding: 0;
+        margin: var(--size-2) 0
+    }
+    .benefits__item:first-child p, .training-details__item:first-child >p, .banner-1 h2{
+        font-size: 2.4rem
+    }
+    .testimonials__item .img-container {
+        height: 320px
+    }
+    .training-roadmap__items{
+        margin-top: calc(var(--size-2) + 6px)
+    }
+    .training-roadmap__item:not(:last-child){
+        padding-bottom: var(--size-2)
+    }
+    .training-roadmap__item:not(:first-child){
+        border-top: none;
+        border-left: 2px solid var(--primary-color);
+        padding-top: 0;
+        padding-left: var(--size-2)
+    }
+    .training-roadmap__item:not(:first-child):before{
+        top: -6px;
+        left: -6px
+    }
+    .training-roadmap__item span:first-child{
+        position: absolute;
+        top: -12px
+    }
+    .training-roadmap__item h3{
+        margin-top: 20px
+    }
+    .banner .content .decor-2{
+        width: 180px
+    }
+    .banner-2 h2{
+        font-size: 2.2rem
+    }
+    .banner-2 .content{
+        align-items: flex-start;
+        gap: var(--size-2)
+    }
+    .banner-2 .content h2 + p{
+        font-family: var(--main-font);
+        font-size: 1.6rem;
+        font-weight: 400
+    }
+    .banner-2 .btn{
+        line-height: 1.2
+    }
+    .banner .content .decor-2{
+        position: static
+    }
+    .banner-1 .content .decor-2{
+        position: static;
+        display: block;
+        width: 120px;
+        margin: -24px 0 0 auto
+    }
+    .banner-2 .content
+    {
+        flex-direction: column
+    }
+    .banner-1 h2{
+        padding: 0
+    }
+    .banner-2 .content >div{
+        align-items: flex-start
+    }
+    .banner-2 .decor-3{
+        bottom: -38px
+    }
+    footer .content{
+        align-items: flex-start;
+        gap: var(--size-2)
+    }
+  
+   
+}
+
