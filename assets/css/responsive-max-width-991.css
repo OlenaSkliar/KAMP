@@ -23,7 +23,9 @@ This file describes styles that are 991px width or smaller
     {
         flex-direction: column
     }
-      
+    .counter-item{
+        padding-left: 0
+    }
     .counter-item:not(:last-child){
         border-right: none;
         border-bottom: 1px solid var(--gray);
