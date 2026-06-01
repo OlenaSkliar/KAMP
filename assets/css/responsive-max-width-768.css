@@ -117,6 +117,9 @@ This file describes styles that are 768px width and smaller
         padding-left: var(--size-1);
         padding-right: var(--size-1)
     }
+    .testimonials__item .img-container {
+        height: 110px
+    }
 
 
 }
