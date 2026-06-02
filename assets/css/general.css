@@ -213,6 +213,7 @@ header.scroll .header .container > .logo img{
 }
 .logo{
     display: flex;
+    align-items: center;
     gap: 20px
 }
 .header.only-desktop .logo{
