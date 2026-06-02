@@ -108,7 +108,6 @@ This file describes styles that are 991px width or smaller
         gap: var(--size-2)
     }
     .banner-2 .content h2 + p{
-        font-family: var(--main-font);
         font-size: 1.6rem;
         font-weight: 400
     }
